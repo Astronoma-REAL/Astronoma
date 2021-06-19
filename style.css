@@ -15,8 +15,7 @@ button, input {
 }
 
 body {
-
-  background: red (45deg, #636f85, #6960a0);
+  background: linear-gradient(45deg, #636f85, #6960a0);
 }
 
 .demo {
