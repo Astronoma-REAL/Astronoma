@@ -1,2 +1,0 @@
-# Astronoma
-Its my website!
