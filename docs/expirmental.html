@@ -2,12 +2,16 @@
 <html>
 <head>
   <title>Astronoma</title>
+
+<!-- Embeeds when website is sent in discord -->
   <link rel="icon" href="https://cdn.discordapp.com/attachments/754986046420156437/879950197940187156/1c7a35bc383c31a87a3563a3ad79f912.png_2.png" type="image/png">
   <meta content="Astronoma's Website" property="og:title" />
   <meta content="A fun website made by astronoma and his friends" property="og:description" />
   <meta content="https://astronoma.ml" property="og:url" />
   <meta content="https://cdn.discordapp.com/attachments/754986046420156437/879950197940187156/1c7a35bc383c31a87a3563a3ad79f912.png_2.png" property="og:image" />
   <meta content="#43B581" data-react-helmet="true" name="purple" />
+
+<!-- css funtion for rainbow text -->
   <style>
     .multicolortext {
       background-image: linear-gradient(to left, rgb(25, 0, 255), rgb(255, 0, 64));
@@ -17,20 +21,26 @@
       color: transparent;
     }
   </style>
+
+<!-- navigation bar -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
+/* Font database */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar body */
 .topnav {
   overflow: hidden;
   background-color: rgb(34, 34, 34);
   border-radius: 0px 0px 15px 15px;
 }
 
+/* tab's text color and tab dimensions */
 .topnav a {
   float: left;
   display: block;
@@ -42,11 +52,13 @@ body {
   border-radius: 0px 0px 5px 5px;
 }
 
+/* color of tab when hovered upon */
 .topnav a:hover {
   background-color: #004e32;
   color: rgb(255, 255, 255);
 }
 
+/* color of tab and text in it when active */
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
@@ -56,6 +68,7 @@ body {
   display: none;
 }
 
+/* topnav on smaller screens */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -80,21 +93,30 @@ body {
 </style>
 </head>
 <body style="background-color:black;">
+
+<!-- tabs of navigaton bar -->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">exit</a>
   <a href="javascript:void(0);" class="icon" onclick="TopnavTabs()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
+<!-- left padding for content -->
 <div style="padding-left:16px">
+
+<!-- rainbow title -->
   <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
     <span class="multicolortext">
       Experiments</h1>
     </span>
+
+<!-- description -->
     <p style="color: #f2f2f2;"><a href="trafficdrops.html" style="color: #ffffff">Trafficdrops</a></p>
     <p style="color: #f2f2f2;"><a href="support.html" style="color: #ffffff">Support</a></p>
 </div>
 
+<!-- makes the navigation bar change color when hovered upon -->
 <script>
 function TopnavTabs() {
   var x = document.getElementById("myTopnav");
