@@ -7,6 +7,15 @@
     color: transparent;
   }
 
+/*background color*/
+body {
+background-color: #000000;
+}
+
+/*text color*/
+p{
+  color: white
+}
 
 /* navigaton bar */
 /* Font database */
@@ -76,7 +85,7 @@ body {
 /* Dividing line for paragraphs */
 hr
 {
-width: 320px;
+width: 350px;
 height: 5px;
 
 /*keep the same*/
