@@ -85,21 +85,21 @@ body {
 /* Dividing line for paragraphs */
 hr
 {
-width: 350px;
-height: 5px;
+  width: 350px;
+  height: 5px;
 
-/*keep the same*/
-background-color: rgb(84, 84, 84);
+  /*keep the same*/
+  background-color: rgb(84, 84, 84);
 
-margin-bottom: 10px;
-margin-right: 0px;
-margin-left: 0px;
-margin-top: 10px;
-border-width: 1px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  border-width: 1px;
 
-/*keep the same*/
-border-color: rgb(84, 84, 84);
+  /*keep the same*/
+  border-color: rgb(84, 84, 84);
 
-border-radius: 5px;
-float: left;
+  border-radius: 5px;
+  float: left;
 }
