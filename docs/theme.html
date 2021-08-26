@@ -109,14 +109,28 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 </style>
 
 <h2>Toggle Switch</h2>
 
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider"></span>
-</label>
+
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
 
   <!-- makes the navigation bar change color when hovered upon -->
   <script src="scripts/navigation.js"></script>
@@ -125,3 +139,10 @@ input:checked + .slider:before {
 </body>
 
 </html>
+  
+  <script>
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+  </script>
