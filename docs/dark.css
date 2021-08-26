@@ -23,7 +23,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  p {
+    font-size: large;
+  }
   /* navbar body */
   .topnav {
     overflow: hidden;
