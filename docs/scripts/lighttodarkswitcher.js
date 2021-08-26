@@ -1,8 +1,9 @@
 var lightMode;
 
-function checkForMode(){
+function checkForMode(doc){
     if(localStorage.getItem("displayModeLODAstronoma") != null){
         lightMode = localStorage.getItem("displayModeLODAstronoma");
+        toggle(doc);
     } else {
         lightMode = false;
     }
