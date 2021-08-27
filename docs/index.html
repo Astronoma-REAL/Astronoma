@@ -57,9 +57,19 @@
   <script src="scripts/navigation.js"></script>
   <script src="scripts/lighttodarkswitcher.js"></script>
 <style>
- body {
-  background-image: url('background.jpg');
-}
+  span {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 </style>
 <video autoplay muted loop id="myVideo">
   <source src="background.mp4" type="video/mp4">
