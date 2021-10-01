@@ -56,6 +56,25 @@
   <!-- makes the navigation bar change color when hovered upon -->
   <script src="scripts/navigation.js"></script>
   <script src="scripts/lighttodarkswitcher.js"></script>
+<style>
+  span {
+            animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+</style>
+<video autoplay muted loop id="myVideo">
+  <source src="background.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 </body>
 
